@@ -1,0 +1,36 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f5f9;
+
+  direction: rtl;
+  .card {
+    background: #fff;
+    padding: 2rem 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+    box-sizing: border-box;
+
+    h2 {
+      margin: 0;
+      text-align: center;
+      font-size: 1.5rem;
+      color: #333;
+    }
+
+    .error {
+      color: red;
+      font-size: 0.9rem;
+      margin: -0.5rem 0 0.5rem;
+      text-align: right;
+    }
+  }
+}
